@@ -1,5 +1,5 @@
 {% set name = "napari-tools-menu" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-tools-menu-{{ version }}.tar.gz
-  sha256: 4e8431e368235ac12696a6335742aa8e35b439f53c614999a91d641ea978bd6f
+  sha256: 08eacfc0914834f2b37bdea6e8a7c109fe358dd555e75553ff7ab6c7f538cf27
 
 build:
   noarch: python
