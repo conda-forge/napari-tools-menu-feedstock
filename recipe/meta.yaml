@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
   run:
     - napari
     - napari-plugin-engine >=0.1.4
